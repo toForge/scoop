@@ -1,0 +1,23 @@
+{
+    "homepage": "https://www.nakka.com/",
+    "version": "2.1.2",
+    "url": "https://www.nakka.com/soft/clcl/download/clcl212.zip",
+    "hash": "546395d50fdc45fbf6b65b6a36baa7a215dc21fa592e1f0369eed11efec27669",
+    "checkver": {
+        "url": "https://www.nakka.com/soft/clcl/",
+        "re": "clcl(\\d)(\\d)(\\d)\\.zip",
+        "replace": "${1}.${2}.${3}"
+    },
+    "autoupdate": {
+        "url": "https://www.nakka.com/soft/clcl/download/clcl$match1$match2$match3.zip"
+    },
+    "bin": "CLCL.exe",
+    "persist": [
+        "clcl.ini",
+        "clcl_app.ini",
+        "regist.dat",
+        "tool_find.dll",
+        "tool_history.dll",
+        "tool_utl.dll"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "description": "CapsLock - Ctrlキー入れ替え。",
+    "##": "実行中にUAC昇格ポップアップが出ます。",
+    "license": {
+        "identifier": "Freeware",
+        "url": "http://technet.microsoft.com/ja-jp/sysinternals/bb469936"
+    },
+    "depends": ["sudo"],
+
+    "version": "2.0",
+    "url": "http://download.sysinternals.com/files/Ctrl2Cap.zip",
+    "hash": "2d8c06374da140beda79ac1940ab2b06a56a9af182dba70a6338313d768a2ac2",
+
+    "installer": {
+        "script": [
+            "sudo $dir\\ctrl2cap.exe /install",
+            "if ($? == $false) {",
+            "    Write-Host '===================================' -Foreground Red",
+            "    Write-Host 'ctrl2capの実行に失敗しました。' -Foreground Red",
+            "    Write-Host '===================================' -Foreground Red",
+            "}"
+        ]
+    },
+    "bin": "ctrl2cap.exe",
+    "shortcuts": [["ctrl2cap.exe", "Ctrl2cap"]],
+    "notes": [
+        "再設定をしたい場合は、以下の手順で行ってください。",
+        "- スタートメニューから「Ctrl2cap」で検索、管理者権限で実行",
+        "- 管理者権限のプロンプトで 'ctrl2cap /uninstall' を実行"
+    ]
+}

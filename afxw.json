@@ -1,0 +1,36 @@
+{
+    "homepage": "http://akt.d.dooo.jp/",
+    "version": "1.65",
+    "architecture": {
+        "64bit": {
+            "url": "http://akt.d.dooo.jp/lzh/afxw64_165.zip",
+            "hash": "c2bae5300de307024705b87a4a28909f31fb67b5e2a5667885a22eae9abadb74"
+        },
+        "32bit": {
+            "url": "http://akt.d.dooo.jp/lzh/afxw32_165.zip",
+            "hash": "ce95bbb0fa6cfb13f9a426b59f6121e8ad94eeb16f5fcbe3324777ec90526b8d"
+        }
+    },
+    "checkver": {
+        "url": "http://akt.d.dooo.jp/akt_afxw.html",
+        "re": "afxw64_(\\d)(\\d+)\\.zip",
+        "replace": "${1}.${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://akt.d.dooo.jp/lzh/afxw64_$match1$match2.zip"
+            },
+            "32bit": {
+                "url": "http://akt.d.dooo.jp/lzh/afxw32_$match1$match2.zip"
+            }
+        }
+    },
+    "bin": "AFXW.EXE",
+    "shortcuts": [
+        [
+            "AFXW.EXE",
+            "あふｗ"
+        ]
+    ]
+}
