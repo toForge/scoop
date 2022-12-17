@@ -1,14 +1,14 @@
 {
     "homepage": "http://akt.d.dooo.jp/",
-    "version": "1.65",
+    "version": "1.66",
     "architecture": {
         "64bit": {
-            "url": "http://akt.d.dooo.jp/lzh/afxw64_165.zip",
-            "hash": "c2bae5300de307024705b87a4a28909f31fb67b5e2a5667885a22eae9abadb74"
+            "url": "http://akt.d.dooo.jp/lzh/afxw64_166.zip",
+            "hash": "8d07c725858bad69d1248e36aea8eb75d29c10497846bc96049cfe839a99da9e"
         },
         "32bit": {
-            "url": "http://akt.d.dooo.jp/lzh/afxw32_165.zip",
-            "hash": "ce95bbb0fa6cfb13f9a426b59f6121e8ad94eeb16f5fcbe3324777ec90526b8d"
+            "url": "http://akt.d.dooo.jp/lzh/afxw32_166.zip",
+            "hash": "3510bac5b47623b428da40276c99a6a836037df5532e8df2a8e4ab229a3e3e04"
         }
     },
     "checkver": {
