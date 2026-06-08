@@ -3,13 +3,13 @@
     "##": "実行中にUAC昇格ポップアップが出ます。",
     "license": {
         "identifier": "Freeware",
-        "url": "http://technet.microsoft.com/ja-jp/sysinternals/bb469936"
+        "url": "https://learn.microsoft.com/ja-jp/sysinternals/downloads/ctrl2cap"
     },
     "depends": ["sudo"],
 
-    "version": "2.0",
-    "url": "http://download.sysinternals.com/files/Ctrl2Cap.zip",
-    "hash": "2d8c06374da140beda79ac1940ab2b06a56a9af182dba70a6338313d768a2ac2",
+    "version": "3.0",
+    "url": "https://download.sysinternals.com/files/Ctrl2Cap.zip",
+    "hash": "",
 
     "installer": {
         "script": [
