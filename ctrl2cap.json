@@ -9,7 +9,7 @@
 
     "version": "3.0",
     "url": "https://download.sysinternals.com/files/Ctrl2Cap.zip",
-    "hash": "",
+    "hash": "4e28152f1ff55f8fdebff3bf7b4d8352bdd7607544f4e86a60f067c0d130a56f",
 
     "installer": {
         "script": [
