@@ -1,14 +1,14 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
-    "version": "2.20.2",
+    "version": "2.21.1",
     "architecture": {
         "64bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.20.2_x64.zip",
-            "hash": "fec71327a902e358ae4238122d0c2e90b0ef43c0fb758f2df9690789db7c0abf"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.21.1_x64.zip",
+            "hash": "da092a905557561699f248232ba4e5592018634e9086faffed8b6844d5b2c696"
         },
         "32bit": {
-            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.20.2_x86.zip",
-            "hash": "9b6ce506ab4b002b3734b944b396d12c1cac763c5bd377230004c63db75337ce"
+            "url": "https://a5m2.mmatsubara.com/download/a5m2_2.21.1_x86.zip",
+            "hash": "ac273428ea60ae4f742a09a5d6138bb06a7b3229c2eb92f68c507c15e4edbfd6"
         }
     },
     "checkver": {

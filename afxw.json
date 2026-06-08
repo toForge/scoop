@@ -1,28 +1,28 @@
 {
-    "homepage": "http://akt.d.dooo.jp/",
-    "version": "1.66",
+    "homepage": "http://afxw.sakura.ne.jp/",
+    "version": "1.67",
     "architecture": {
         "64bit": {
-            "url": "http://akt.d.dooo.jp/lzh/afxw64_166.zip",
-            "hash": "8d07c725858bad69d1248e36aea8eb75d29c10497846bc96049cfe839a99da9e"
+            "url": "http://afxw.sakura.ne.jp/lzh/afxw64_167.zip",
+            "hash": "631d91ea9ee5a48c45b980cd4266a33f3a1e683833084cf010f786367aad78aa"
         },
         "32bit": {
-            "url": "http://akt.d.dooo.jp/lzh/afxw32_166.zip",
-            "hash": "3510bac5b47623b428da40276c99a6a836037df5532e8df2a8e4ab229a3e3e04"
+            "url": "http://afxw.sakura.ne.jp/lzh/afxw32_167.zip",
+            "hash": "f13fdd18c3a1dafa9df6297a9859d9fff573ae89473f312c5e95478c03e5d712"
         }
     },
     "checkver": {
-        "url": "http://akt.d.dooo.jp/akt_afxw.html",
+        "url": "http://afxw.sakura.ne.jp/akt_afxw.html",
         "re": "afxw64_(\\d)(\\d+)\\.zip",
         "replace": "${1}.${2}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://akt.d.dooo.jp/lzh/afxw64_$match1$match2.zip"
+                "url": "http://afxw.sakura.ne.jp/lzh/afxw64_$match1$match2.zip"
             },
             "32bit": {
-                "url": "http://akt.d.dooo.jp/lzh/afxw32_$match1$match2.zip"
+                "url": "http://afxw.sakura.ne.jp/lzh/afxw32_$match1$match2.zip"
             }
         }
     },
